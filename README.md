@@ -1,0 +1,1 @@
+This Burger King webpage was cloned after learning props concept and then realized reactJs is such a great way to build projects.
