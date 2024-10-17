@@ -1,4 +1,5 @@
 import React from "react";
+import saveImage from "../Assets/mobile.webp";
 class Cont1 extends  React.Component {
     render(){
         return(
@@ -7,7 +8,7 @@ class Cont1 extends  React.Component {
 
            <div id='c2'>
                  <div className='mb'>
-                    <img alt='mobile' src="assets/images/mobile.webp"></img>
+                    <img alt='mobile' src={saveImage}></img>
                 </div>
                 <div  className='mb'>
 

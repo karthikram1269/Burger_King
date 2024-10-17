@@ -1,4 +1,5 @@
 import React from "react";
+import topImage from "../Assets/p1.webp";
 class Cont extends React.Component{
 
     render(){
@@ -10,7 +11,7 @@ class Cont extends React.Component{
                             <button id="b3"><i className="fa-solid fa-motorcycle"></i> Order Delivery</button>
                     </div>
                     <div id="cd3">
-                            <img src="Assets/images/p1.webp" alt="" />
+                            <img src={topImage} alt="top" />
                     </div>
             </div>
         )
